@@ -17,11 +17,11 @@ global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VacWsSl3LdQO
 global.website = process.env.GURL || "https://whatsapp.com/channel/0029VacWsSl3LdQOmWZrBj0l";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/95ce6ad6559693eba92d2.jpg";
 global.devs = "18763351213";
-global.sudo = process.env.SUDO || "18763351213";
-global.owner = process.env.OWNER_NUMBER || "18763351213";
+global.sudo = process.env.SUDO || "94762354615";
+global.owner = process.env.OWNER_NUMBER || "94713317339";
 global.style = process.env.STYLE || "3";
-global.gdbye = process.env.GOODBYE || "false";
-global.wlcm = process.env.WELCOME || "false";
+global.gdbye = process.env.GOODBYE || "true";
+global.wlcm = process.env.WELCOME || "true";
 global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
@@ -29,9 +29,9 @@ global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
 global.userImages = process.env.USER_IMAGES || "";
 global.waPresence = process.env.WAPRESENCE || "online";
 global.readcmds = process.env.READ_COMMAND || "false";
-global.readmessage = process.env.READ_MESSAGE || "false";
+global.readmessage = process.env.READ_MESSAGE || "true";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "18763351214";
-global.read_status = process.env.AUTO_READ_STATUS || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "";
 global.read_status_from = process.env.READ_STATUS_FROM || "";
@@ -47,10 +47,10 @@ module.exports = {
   HANDLERS: process.env.PREFIX || "",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "©️ 𝛲𝛩𝑊𝛯𝑅𝐷 𝐵𝑌 𝑊𝛨𝛪𝛧𝐵𝛩𝑇-𝛭𝐷",
-  author: process.env.PACK_AUTHER || "WHIZBOT-ᴍᴅ",
+  caption: process.env.CAPTION || "©️ 𝛲𝛩𝑊𝛯𝑅𝐷 𝐵𝑌 𝐏𝐀𝐍𝐃𝐀-𝛭𝐷",
+  author: process.env.PACK_AUTHER || "𝙿𝙰𝙽𝙳𝙰-ᴍᴅ",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "WHIZBOT-MD",
+  botname: process.env.BOT_NAME || "𝙿𝙰𝙽𝙳𝙰ZBOT-MD",
   ownername: process.env.OWNER_NAME || "JAY BOTS",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
